@@ -158,10 +158,9 @@ body{
 }
 
 .card {
-    width: 100px;
-    height: 100px;
+    
     border: none;
-    background: #eee;
+    background: #2c2020;
     cursor: pointer;
     overflow: hidden;
     display: flex;

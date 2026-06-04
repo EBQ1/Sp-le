@@ -14,27 +14,29 @@ let money = 0;
 let multiplier = 1;
 
 
+
+
 const cards = document.querySelectorAll(".card");
 let firstCard = null;
 let secondCard = null;
 let lock = false;
 
 const images = [
-  "images/1.png", "images/1.png",
-  "images/2.png", "images/2.png",
-  "images/3.png", "images/3.png",
-  "images/4.png", "images/4.png",
-  "images/5.png", "images/5.png",
-  "images/6.png", "images/6.png",
-  "images/7.png", "images/7.png",
-  "images/8.png", "images/8.png",
-  "images/9.png", "images/9.png",
-  "images/10.png", "images/10.png",
-  "images/11.png", "images/11.png",
-  "images/12.png", "images/12.png",
-  "images/13.png", "images/13.png",
-  "images/14.png", "images/14.png",
-  "images/15.png", "images/15.png"
+  "images/IMG_1896.jpeg", "images/IMG_1896.jpeg",
+  "images/IMG_1897.jpeg", "images/IMG_1897.jpeg",
+  "images/IMG_4141.jpeg", "images/IMG_4141.jpeg",
+  "images/IMG_4142.jpeg", "images/IMG_4142.jpeg",
+  "images/IMG_4143.jpeg", "images/IMG_4143.jpeg",
+  "images/IMG_4144.jpeg", "images/IMG_4144.jpeg",
+  "images/IMG_4145.jpeg", "images/IMG_4145.jpeg",
+  "images/IMG_4146.jpeg", "images/IMG_4146.jpeg",
+  "images/IMG_4147.jpeg", "images/IMG_4147.jpeg",
+  "images/IMG_4148.jpeg", "images/IMG_4148.jpeg",
+  "images/IMG_4149.jpeg", "images/IMG_4149.jpeg",
+  "images/IMG_4150.jpeg", "images/IMG_4150.jpeg",
+  "images/IMG_4151.jpeg", "images/IMG_4151.jpeg",
+  "images/IMG_4152.jpeg", "images/IMG_4152.jpeg",
+  "images/IMG_4154.jpeg", "images/IMG_4154.jpeg"
 ];
 
 images.sort(() => Math.random() - 0.5);
